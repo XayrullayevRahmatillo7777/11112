@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation-name: otttttt;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes otttttt{
+   0%{
+    background-color:block; 
+    top: 0;
+    left: 0;
+   }
+   
+   25%{
+    background-color:red; 
+    top: 0;
+    left: 1000px;
+   }
+   
+   50%{
+    background-color:yellow; 
+    top: 500px;
+    left: 1000px;
+   }
+   75%{
+    background-color:yellowgreen; 
+    top: 500px;
+    left: 0;
+   }
+   100%{
+    background-color:blue; 
+    top: 0;
+    left: 0;
+   }
+}
